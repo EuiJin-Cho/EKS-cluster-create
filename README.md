@@ -12,7 +12,7 @@ sudo ./aws/install
 aws --version
 ```
 
-### 정상 설치 결과 확인
+#### 정상 설치 결과 확인
 ```
 aws-cli/2.2.5 Python/3.8.8 Linux/4.4.0-19041-Microsoft exe/x86_64.ubuntu.20 prompt/off
 ```
@@ -25,7 +25,7 @@ sudo mv /tmp/eksctl /usr/local/bin
 eksctl version
 ```
 
-### 정상 설치 결과 확인
+#### 정상 설치 결과 확인
 ```
 0.68.0
 ```
@@ -40,7 +40,7 @@ echo 'export PATH=$PATH:$HOME/bin' >> ~/.bashrc
 kubectl version --short --client
 ```
 
-### 정상 설치 확인
+#### 정상 설치 확인
 ```
 Client Version: v1.24.9-eks-49a6c0
 ```
@@ -65,7 +65,7 @@ aws configure
 ```
 
 
-### 정상 연결 결과 확인
+#### 정상 연결 결과 확인
 ```
 ubuntu@seongmi_lee:~$ cd .aws/
   ubuntu@seongmi_lee:~/.aws$ ls
@@ -95,7 +95,7 @@ aws eks --region example_region update-kubeconfig --name cluster_name
 aws eks --region ap-southeast-1 update-kubeconfig --name test-eks-cluster
 ```
 
-### 정상 연결 확인
+#### 정상 연결 확인
 ```
 
 ```
