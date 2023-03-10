@@ -102,6 +102,7 @@ kubectl get po -A
 
 
 
-ref
+ref:
+
 https://velog.io/@moey920/Amazon-EKS-%EC%A0%91%EC%86%8D-%EB%B0%A9%EB%B2%95
 https://aws.amazon.com/ko/premiumsupport/knowledge-center/eks-cluster-connection/
