@@ -99,3 +99,9 @@ aws eks --region ap-southeast-1 update-kubeconfig --name test-eks-cluster
 ```
 kubectl get po -A
 ```
+
+
+
+ref
+https://velog.io/@moey920/Amazon-EKS-%EC%A0%91%EC%86%8D-%EB%B0%A9%EB%B2%95
+https://aws.amazon.com/ko/premiumsupport/knowledge-center/eks-cluster-connection/
