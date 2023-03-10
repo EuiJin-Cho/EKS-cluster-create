@@ -97,5 +97,5 @@ aws eks --region ap-southeast-1 update-kubeconfig --name test-eks-cluster
 
 #### 정상 연결 확인
 ```
-
+kubectl get po -A
 ```
